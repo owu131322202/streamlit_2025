@@ -67,7 +67,7 @@ if st.session_state["cards"]:
         
         with col1:
             if card["image"] is not None:
-                st.image(card["image"], caption="プロフィール画像", use_column_width=True)
+                st.image(card["image"], caption="プロフィール画像", use_container_width=True)
             else:
                 st.write("画像がアップロードされていません")
         
